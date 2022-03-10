@@ -1,0 +1,566 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="sandbox" this:sandbox.in_apiKey="7RmGf8TCrlbScLOr8Ji02O8D0YfgVKLB" this:sandbox.in_modelId="6167d5b7-6fd5-4e07-806c-2eaf8474e7bd" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_apiKey" Type="InArgument(x:String)" />
+    <x:Property Name="in_modelId" Type="InArgument(x:String)" />
+    <x:Property Name="in_jsonObjs" Type="InArgument(scg:List(njl:JObject))" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>824,5799.2</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>sandbox_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="86">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Web</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="31">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Web</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="sandbox" sap:VirtualizedContainerService.HintSize="742.4,5734.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="txt" />
+      <Variable x:TypeArguments="x:String" Name="time" />
+      <Variable x:TypeArguments="x:Int32" Name="httpTimeout" />
+      <Variable x:TypeArguments="x:String" Name="filename_captcha1" />
+      <Variable x:TypeArguments="njl:JObject" Name="json_txt" />
+      <Variable x:TypeArguments="njl:JToken" Name="pages" />
+      <Variable x:TypeArguments="njl:JToken" Name="firstPage" />
+      <Variable x:TypeArguments="njl:JToken" Name="prediction" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="700.8,4701.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="659.2,164" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+        <ui:MultipleAssign.AssignOperations>
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[time]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">[Now.ToString("dd_MM_yyyy_hh_mm_ss")]</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:Int32">[httpTimeout]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:Int32">60000</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[filename_captcha1]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">["C:\Users\Ramaditya Satria\Desktop\work\RPA\PoC WOM Finance\PoC WOM Finance\Data\Captcha1\captcha_" + time + ".png"]</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+          </scg:List>
+        </ui:MultipleAssign.AssignOperations>
+      </ui:MultipleAssign>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: New Tab" sap:VirtualizedContainerService.HintSize="659.2,4404.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a76ad59b-bf93-44a5-bf43-2dd7dd9e2df6" Version="V1" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence sap:VirtualizedContainerService.HintSize="625.6,4188" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="ui:Image" Name="screenshot" />
+                <Variable x:TypeArguments="x:String" Name="result" />
+                <Variable x:TypeArguments="x:Int32" Name="statusCode" />
+                <Variable x:TypeArguments="njl:JObject" Name="result_json" />
+                <Variable x:TypeArguments="x:String" Name="captcha" />
+                <Variable x:TypeArguments="x:Boolean" Name="sign_in_exist" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Assign sap:VirtualizedContainerService.HintSize="584,61.6" sap2010:WorkflowViewState.IdRef="Assign_15">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Boolean">[sign_in_exist]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:InterruptibleDoWhile Condition="[sign_in_exist=True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="584,3929.6" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2">
+                <ui:InterruptibleDoWhile.Body>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="548.8,3762.4" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="contain" />
+                      <Variable x:TypeArguments="x:String" Name="replace" />
+                      <Variable x:TypeArguments="x:String" Name="prediction_string" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="507.2,60" sap2010:WorkflowViewState.IdRef="Assign_18">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[prediction_string]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">%[]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:InterruptibleDoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="507.2,1762.4" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_3">
+                      <ui:InterruptibleDoWhile.Body>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="472,1595.2" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="430.4,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="http://172.16.160.52/webportal/login" Version="V1" />
+                          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="430.4,22.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot 'DIV'" sap:VirtualizedContainerService.HintSize="430.4,107.2" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[screenshot]">
+                            <ui:TakeScreenshot.Target>
+                              <ui:Target Element="{x:Null}" Id="3f32a392-80c0-4565-99c3-881cf5491f69" InformativeScreenshot="1445a45407c8385e1b62e32e828ee3ac" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;">
+                                <ui:Target.ClippingRegion>
+                                  <ui:Region Rectangle="57, 392, 416, 149" />
+                                </ui:Target.ClippingRegion>
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:TakeScreenshot.Target>
+                          </ui:TakeScreenshot>
+                          <ui:SaveImage DisplayName="Save Image" FileName="[filename_captcha1]" sap:VirtualizedContainerService.HintSize="430.4,134.4" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[screenshot]" />
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="430.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,178.4" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_10" Text="[&quot;stop&quot;]" />
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:CommentOut>
+                          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="430.4,22.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                          <Assign sap:VirtualizedContainerService.HintSize="430.4,60" sap2010:WorkflowViewState.IdRef="Assign_13">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Int32">[statusCode]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Int32">0</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:InterruptibleDoWhile Condition="[Not statusCode=200]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="430.4,313.6" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                            <ui:InterruptibleDoWhile.Body>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="241.6,146.4" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:HttpClient Body="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" sap2010:Annotation.AnnotationText="Cloud" BodyFormat="multipart/form-data" ClientCertificate="[Nothing]" ClientCertificatePassword="[Nothing]" DisplayName="HTTP Request 1" EndPoint="[&quot;https://app.nanonets.com/api/v2/OCR/Model/&quot;+ in_modelId +&quot;/LabelFile/&quot;]" sap:VirtualizedContainerService.HintSize="200,53.6" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="POST" Result="[result]" StatusCode="[statusCode]" TimeoutMS="[httpTimeout]">
+                                  <ui:HttpClient.Attachments>
+                                    <InArgument x:TypeArguments="x:String" x:Key="file">[filename_captcha1]</InArgument>
+                                  </ui:HttpClient.Attachments>
+                                  <ui:HttpClient.Cookies>
+                                    <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                                  </ui:HttpClient.Cookies>
+                                  <ui:HttpClient.Headers>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Authorization">["Basic " + System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(in_apiKey+":"))]</InArgument>
+                                  </ui:HttpClient.Headers>
+                                  <ui:HttpClient.Parameters>
+                                    <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                                  </ui:HttpClient.Parameters>
+                                  <ui:HttpClient.UrlSegments>
+                                    <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                                  </ui:HttpClient.UrlSegments>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:HttpClient>
+                              </Sequence>
+                            </ui:InterruptibleDoWhile.Body>
+                          </ui:InterruptibleDoWhile>
+                          <Assign sap:VirtualizedContainerService.HintSize="430.4,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="njl:JObject">[result_json]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="njl:JObject">[JObject.Parse(result)]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="430.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,178.4" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_11" Text="[result_json]" />
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:CommentOut>
+                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="430.4,194.4" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                            <ui:MultipleAssign.AssignOperations>
+                              <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="njl:JToken">[pages]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="njl:JToken">[result_json("result")]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="njl:JToken">[firstPage]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="njl:JToken">[pages(0)]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="njl:JToken">[prediction]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="njl:JToken">[firstPage("prediction")]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:String">[prediction_string]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:String">[prediction.ToString]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                              </scg:List>
+                            </ui:MultipleAssign.AssignOperations>
+                          </ui:MultipleAssign>
+                        </Sequence>
+                      </ui:InterruptibleDoWhile.Body>
+                      <ui:InterruptibleDoWhile.Condition>
+                        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="prediction_string=&quot;[]&quot;" />
+                      </ui:InterruptibleDoWhile.Condition>
+                    </ui:InterruptibleDoWhile>
+                    <Assign sap:VirtualizedContainerService.HintSize="507.2,60" sap2010:WorkflowViewState.IdRef="Assign_14">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[captcha]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[prediction.First()("ocr_text").ToString]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="507.2,256.8" sap2010:WorkflowViewState.IdRef="CommentOut_10">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,178.4" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_14" Text="[captcha]" />
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="507.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="304,152.8" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_16">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[contain]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String" xml:space="preserve"> Captcha</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="507.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="304,152.8" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_17">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[replace]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <Literal x:TypeArguments="x:String" Value="" />
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="507.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_9">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,152.8" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:Replace sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Replace_1" Input="[captcha]" IsBuilderTabModified="False" Pattern="[contain]" RegexOption="IgnoreCase, Compiled" Replacement="[replace]" Result="[captcha]" />
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:CommentOut>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="507.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a76ad59b-bf93-44a5-bf43-2dd7dd9e2df6" Text="00908023" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="http://172.16.160.52/webportal/login" DesignTimeRectangle="1385, 577, 448, 44" ElementType="InputBox" FriendlyName="'INPUT username'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="5799e9ed-75ab-4d28-b6f3-ececb73602a6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAcQAAAAwCAYAAACPKwqkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAATqSURBVHhe7d3fS1tnHMfx/SveebE/o72q7GL7C7zbXe8m+wNkN70cg6CYoSUltK4ZIUQEKWERNovZXC2Whsq0FDPTJRgSSIr62fM9Oed4jNGZmh9dfL/gKSbnISf05s1znpzkMwEAABFEAAAcgggAgHMhiM1mU9VqVeVyWYeHhwwGg8FgjM2wtlnjrHWdzgWxXq+rUqmo1Wrp9PTUfxYAgPFgbbPGWeuseVFhEK2WNoEQAgDGnbXOmhddKYZBtCWkVRMAgNvAmmftC4RBtOuqrA4BALeFNc/aFwiDaJuNAADcJtH2EUQAwK1FEAEAcAgiAAAOQQQAwCGIAAA4BBEAAIcgAgDgjDaIx00dVY7cuPjFqgAADNPIgrifmdHU5xOamGiPyXszWnnrHwQAYMhGEsRm4YHuugje/WZRm38daf/5ombuuDDeeaDNQSwWd9KKxdLa8R922snEFMtcdnSADvNKxBLKh//dZeUT7r3EOsZCXMlMXjvvj/15AIB+G0EQj7Ry38VvOqlzZzlIatpF8n7myH+ij/5nQUysn32fnk5aarzfU2ElodhcXNmdhn8AANBPIwjivha/dEH8btN/HNjUrAviVw/3/cd9NNIgHqtRa7h/u7hOECNK6xbFlLZoIgD0HStE50IQa0XlniyFlyznk2kV3kWT1tDeb2kl5tvHY/MJZV+e/WxIcL5CcU2JOZuT1vaJfyyqxyDqpKjVhSuOAwA+2giCGOwhTmrq28ge4r3JT2QPsaqNpIvO2q5qH9zDDw2VXmS1nNtrH3a8ldqjnHar7d+MbP1dUCoeV/a1/xuS3vncaybP5nTVaxCd7XT0vQIA+mUkQTSHz2Y7PmU6q2eDOm1PQSwqOxdX7rJPvLa2lJqLRsz30p3j6Za8/Hnn6zKn00cEcWT7nQAw5kYWRE9wH+LRgO9D7CmIwV5dQqnchrbflNSILvLe5hT3L6VeGIm8S5rzH+cL9RzElraeuvMQRADou+EHMbwZ/7IxgDi+znqB6rqP53iXIVeK/qO240ZJu7/ntZZJKu5WjMvPS+0DXhBTKlRrqtU6Rj16yXQAQQz2EH+N7FcCAPpiqEHsvBn/stH3m/S9y5wxpf7o8vHMhn/szyv2+uxy6MKqdu1v77XmtXq+n+cNKIh8yhQABmdoQey8Gb/76nBwN+kHl0FXX5XUsA/L2P19B9vKPnSrw0d5lYLVowte9qecdg4aatlzraq2M3HFHm+o1p7Rfq34svJvqt6c40ZZu+vLSv7yrj2hn0HkPkQAGIohBfGSWy0uM5BbMI5VfrGm5YfzLlb+nt/CkpbXtlW2QIbat1Qk4/48txpcepJTMaihx5+z4L+OzfnZzfnHP3zDIIbvLxh8Uw0ADNyQgnio5PSEpn686jpjVFGLX0xo+nG/3wcAAN0NNYjXD1yv8wEAuJkhBbGpzR++1veF624K9jofAICbGVIQAQD4tBFEAAAcgggAgEMQAQBwCCIAAA5BBADAIYgAADgEEQAAhyACAOAQRAAAnK5BLJfLOj099R8BADDerHnWvkAYxGq1qlbrih/MBQBgjFjzrH2BMIjNZlOVSoVVIgBg7FnrrHnWvkAYRFOv170JVk3CCAAYN9Y2a5y1zpoXdS6IxmppS0i7rmqbjQwGg8FgjMuwtlnjoivDwIUgAgBw+0j/AuRXl4PwBeK4AAAAAElFTkSuQmCC" InformativeScreenshot="74c4db25e5d2946f7f0a97cf2a912be8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Portal' /&gt;" SearchSteps="Selector, Image" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="507.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="a76ad59b-bf93-44a5-bf43-2dd7dd9e2df6" Text="NkSuBz27" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="http://172.16.160.52/webportal/login" DesignTimeRectangle="1385, 643, 448, 44" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" Guid="abde6908-92ca-4dd3-abd1-7a510166291a" ImageBase64="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" InformativeScreenshot="ddb55b33f8cc270e8634041654ca40a9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Portal' /&gt;" SearchSteps="Selector, Image" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT captchaAnswer'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="507.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="a76ad59b-bf93-44a5-bf43-2dd7dd9e2df6" Text="[captcha]" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="http://172.16.160.52/webportal/login" DesignTimeRectangle="1587, 709, 187, 44" ElementType="InputBox" FriendlyName="'INPUT captchaAnswer'" FullSelectorArgument="&lt;webctrl id='captchaAnswer' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl id='captchaAnswer' tag='INPUT' type='text' aaname='' /&gt;" Guid="4dd348a3-1454-497b-9f0a-07a28f9e847d" ImageBase64="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" InformativeScreenshot="2151c2458fc14ee850501d8dc3c580c5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Portal' /&gt;" SearchSteps="Selector, Image" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="507.2,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="893b947f-79ef-4c92-9722-355cea16dc57" InformativeScreenshot="2f8a4b416e21e5a9fe4955352c2e0fb9" Selector="&lt;webctrl tag='BUTTON' type='submit' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:Click.Target>
+                    </ui:Click>
+                    <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="507.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                    <ui:UiElementExists DisplayName="Element Exists 'BUTTON'" Exists="[sign_in_exist]" sap:VirtualizedContainerService.HintSize="507.2,107.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                      <ui:UiElementExists.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="09806675-0eda-417f-9c17-cd1ecc79f3aa" InformativeScreenshot="2f8a4b416e21e5a9fe4955352c2e0fb9" Selector="&lt;html app='chrome.exe' title='Web Portal' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:UiElementExists.Target>
+                    </ui:UiElementExists>
+                  </Sequence>
+                </ui:InterruptibleDoWhile.Body>
+              </ui:InterruptibleDoWhile>
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="584,22.4" sap2010:WorkflowViewState.IdRef="Delay_4" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="be725f2c90f20c8ef74ccfe5d0f74810.png" Selector="&lt;html app='chrome.exe' url='chrome://newtab/' /&gt;" Url="chrome://newtab/" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="700.8,900" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="513.6,821.6" sap2010:WorkflowViewState.IdRef="Sequence_18">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Sequence2" sap:VirtualizedContainerService.HintSize="472,728.8" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="430.4,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[json_txt]" />
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="430.4,164" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="njl:JToken">[pages]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="njl:JToken">[json_txt("result")]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="njl:JToken">[firstPage]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="njl:JToken">[pages(0)]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="njl:JToken">[prediction]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="njl:JToken">[firstPage("prediction")]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="430.4,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_8" Text="[prediction.First()(&quot;ocr_text&quot;).ToString]" />
+            <ui:ReadTextFile Content="[txt]" DisplayName="Read Text File" FileName="C:\Users\Ramaditya Satria\Desktop\work\RPA\PoC WOM Finance\PoC WOM Finance\Data\json.txt" sap:VirtualizedContainerService.HintSize="430.4,80.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_3" />
+            <Assign sap:VirtualizedContainerService.HintSize="430.4,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+              <Assign.To>
+                <OutArgument x:TypeArguments="njl:JObject">[json_txt]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="njl:JObject">[JObject.Parse(txt)]</InArgument>
+              </Assign.Value>
+            </Assign>
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

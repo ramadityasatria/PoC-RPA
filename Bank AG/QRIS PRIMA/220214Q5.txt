@@ -1,0 +1,588 @@
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : BC-BANK CENTRAL ASIA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                        377                54,437,119.00                    78,003.21
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                        377                54,437,119.00                    78,003.21
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : CN-BANK CIMB NIAGA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          5                   126,000.00                       261.80
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          5                   126,000.00                       261.80
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : AL-360003 ALTO
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                         59                 1,406,301.00                     1,678.60
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                         59                 1,406,301.00                     1,678.60
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : AJ-360001 ARTAJASA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                        247                15,415,835.00                    19,060.31
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          1                     2,000.00                         7.70
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     3
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                        251                15,417,835.00                    19,068.01
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : JL-360004 JALIN
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                         86                20,912,797.00                    15,575.05
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          1                     8,000.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     1
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                         88                20,920,797.00                    15,575.05
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : DN-BANK DANAMON
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          1                    90,200.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          1                    90,200.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : DK-BANK DKI
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                         13                   227,000.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     6
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                         19                   227,000.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : MG-BANK MEGA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : BS-BANK SUMSELBABEL
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          1                 1,289,860.00                     4,965.96
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          1                 1,289,860.00                     4,965.96
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : JB-BANK JABAR BANTEN
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : NG-BANK NAGARI
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : OC-OTTOCASH
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : NS-BANK OCBC NISP
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          2                 8,000,000.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          2                 8,000,000.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : HN-BANK HANA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : KP-KASPRO
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          2                 1,640,500.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          2                 1,640,500.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : TP-BANK TABUNGAN PENSIUNAN NASION
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          4                   490,950.00                     1,636.06
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          4                   490,950.00                     1,636.06
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : IU-ISAKU
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                         10                   161,000.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     1
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                         11                   161,000.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : SS-BANK SULSELBAR
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          1                    44,000.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          1                    44,000.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : JM-BANK JATIM
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : YG-BANK BPD DIY
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : SA-BANK SAHABAT SAMPOERNA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : BA-BANK BUMI ARTA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : CS-BANK BCA SYARIAH
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : SN-BANK SINARMAS
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          1                    26,000.00                       100.10
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          1                    26,000.00                       100.10
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : MA-BANK MULTIARTA SENTOSA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : AU-BANK RIAU
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : BK-BANK KB BUKOPIN
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : BP-BANK PAPUA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : KT-PT. BPD KALTIM KALTARA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : AP-ASTRAPAY
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : DY-DIPAY
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  RETENSI   : RA.1B/6B/2T                   LAPORAN BIAYA TRANSAKSI EFT SWITCHING (QR PAYMENT)                  FREKWENSI :   HARIAN
+  LAPORAN   : B24-QA02                                     ACQUIRER: AG-BANK ARTHA GRAHA                        TANGGAL   : 15-02-22
+                                                                                                                HALAMAN   :        1
+  ISSUER    : PK-PAPRIKA
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  STATUS     NAMA TXN                  FREKUENSI                      AMOUNT                    BIAYA TXN                            
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  APPROVED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+ SUSPENDED   PAYMENT                          0                         0.00                         0.00
+             REFUND                           0                         0.00                         0.00
+             CHECK STATUS                     0
+  DECLINED   PAYMENT                          0
+             REFUND                           0
+             CHECK STATUS                     0
+             TOTAL :                          0                         0.00                         0.00
+ +----------------------------------------------------------------------------------------------------------------------------------+
+ +----------------------------------------------------------------------------------------------------------------------------------+
+  TOTAL APPR PAYMENT      :                 809               104,267,562.00                   121,281.09
+        APPR REFUND       :                   0                         0.00                         0.00
+        APPR CHECK STATUS :                   1
+  TOTAL SUSP PAYMENT      :                   2                    10,000.00                         7.70
+        SUSP REFUND       :                   0                         0.00                         0.00
+        SUSP CHECK STATUS :                  10
+  TOTAL DECL PAYMENT      :                   0
+        DECL REFUND       :                   0
+        DECL CHECK STATUS :                   0
+        GRAND TOTAL       :                 822               104,277,562.00                   121,288.79
+ +----------------------------------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,37 @@
+{
+  "message": "Success",
+  "result": [
+    {
+      "message": "Success",
+      "input": "captcha_25_02_2022_02_14_36.png",
+      "prediction": [
+        {
+          "id": "30f30ef9-6879-46e6-acbb-3e228385c525",
+          "label": "Hasil_Captcha",
+          "xmin": 43,
+          "ymin": 21,
+          "xmax": 168,
+          "ymax": 67,
+          "score": 0.90908253,
+          "ocr_text": "43gby"
+        }
+      ],
+      "page": 0,
+      "request_file_id": "6096c4c2-7280-4baa-a011-f086f6387488",
+      "filepath": "uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg",
+      "id": "9a73584c-960a-11ec-bf6c-bab691f3c927",
+      "rotation": 0
+    }
+  ],
+  "signed_urls": {
+    "uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg": {
+      "original": "https://nnts.imgix.net/uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg?expires=1645787684&or=0&s=7b75ecac81635294d13bf701d08794ff",
+      "original_compressed": "https://nnts.imgix.net/uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg?auto=compress&expires=1645787684&or=0&s=1ff4fbcbf8f1c1c9f384f63fc7ce6517",
+      "thumbnail": "https://nnts.imgix.net/uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg?auto=compress&expires=1645787684&w=240&s=2213fe440ca3b36d14b4870ca6a93290",
+      "acw_rotate_90": "https://nnts.imgix.net/uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg?auto=compress&expires=1645787684&or=270&s=523ce3b9399013f9cfe864a5e494ab45",
+      "acw_rotate_180": "https://nnts.imgix.net/uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg?auto=compress&expires=1645787684&or=180&s=546e33235fa559bbbcddbcb57837d28a",
+      "acw_rotate_270": "https://nnts.imgix.net/uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg?auto=compress&expires=1645787684&or=90&s=efebeae161054ae32f0392356aff1bca",
+      "original_with_long_expiry": "https://nnts.imgix.net/uploadedfiles/6167d5b7-6fd5-4e07-806c-2eaf8474e7bd/PredictionImages/1892561820.jpeg?expires=1661325284&or=0&s=4e862a71c08275752abc5fefce5ab9f7"
+    }
+  }
+}

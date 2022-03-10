@@ -1,0 +1,185 @@
+{
+  "message": "Success",
+  "result": [
+    {
+      "message": "Success",
+      "input": "632.YP-GA.IMO.2021 (Pembayaran Listrik Distrik 8 Treasury tower Juni 21).pdf",
+      "prediction": [
+        {
+          "id": "45a584ea-0bdf-4c21-90a5-d089582d9046",
+          "label": "perihal_memo",
+          "xmin": 513,
+          "ymin": 801,
+          "xmax": 1604,
+          "ymax": 837,
+          "score": 0.98686534,
+          "ocr_text": "Pembayaran Listrik District 8 (Treasury Tower) Periode Juni 2021"
+        },
+        {
+          "id": "5d8ae717-e417-4bfc-9b05-bbae98ecec39",
+          "label": "total_bayar_memo",
+          "xmin": 971,
+          "ymin": 1483,
+          "xmax": 1185,
+          "ymax": 1514,
+          "score": 0.9271552,
+          "ocr_text": "45.912.193"
+        }
+      ],
+      "page": 0,
+      "request_file_id": "a2d16fd4-f6f6-4f20-999c-85d153710e85",
+      "filepath": "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg",
+      "id": "32c87106-9aa7-11ec-88b7-62d963127418",
+      "rotation": 0
+    },
+    {
+      "message": "Success",
+      "input": "632.YP-GA.IMO.2021 (Pembayaran Listrik Distrik 8 Treasury tower Juni 21).pdf",
+      "prediction": [
+        {
+          "id": "fd035586-a300-4337-a55a-bdc5424d06cc",
+          "label": "vat_inv",
+          "xmin": 2113,
+          "ymin": 2278,
+          "xmax": 2262,
+          "ymax": 2307,
+          "score": 0.9243857,
+          "ocr_text": "1,768,523"
+        },
+        {
+          "id": "4b777344-f05d-4ddb-bf4c-8d68a29449b3",
+          "label": "grand_total_inv",
+          "xmin": 2097,
+          "ymin": 2502,
+          "xmax": 2264,
+          "ymax": 2529,
+          "score": 0.9879993,
+          "ocr_text": "19,453,759"
+        },
+        {
+          "id": "fa83b37d-2364-4088-afc5-f7f9d8ca1247",
+          "label": "total_inv",
+          "xmin": 2098,
+          "ymin": 2182,
+          "xmax": 2265,
+          "ymax": 2211,
+          "score": 0.93637407,
+          "ocr_text": "17,685,236"
+        }
+      ],
+      "page": 1,
+      "request_file_id": "a2d16fd4-f6f6-4f20-999c-85d153710e85",
+      "filepath": "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg",
+      "id": "32c8715f-9aa7-11ec-88b8-62d963127418",
+      "rotation": 0
+    },
+    {
+      "message": "Success",
+      "input": "632.YP-GA.IMO.2021 (Pembayaran Listrik Distrik 8 Treasury tower Juni 21).pdf",
+      "prediction": [],
+      "page": 2,
+      "request_file_id": "a2d16fd4-f6f6-4f20-999c-85d153710e85",
+      "filepath": "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg",
+      "id": "32c871b2-9aa7-11ec-88b9-62d963127418",
+      "rotation": 0
+    },
+    {
+      "message": "Success",
+      "input": "632.YP-GA.IMO.2021 (Pembayaran Listrik Distrik 8 Treasury tower Juni 21).pdf",
+      "prediction": [
+        {
+          "id": "15cf73c4-b1d0-48ec-b75f-1622faa6322b",
+          "label": "total_inv",
+          "xmin": 2103,
+          "ymin": 2180,
+          "xmax": 2270,
+          "ymax": 2209,
+          "score": 0.9381133,
+          "ocr_text": "24,053,122"
+        },
+        {
+          "id": "5a441487-cd32-4f87-a98e-e62a57e5c9fa",
+          "label": "vat_inv",
+          "xmin": 2118,
+          "ymin": 2276,
+          "xmax": 2267,
+          "ymax": 2307,
+          "score": 0.9246275,
+          "ocr_text": "2,405,312"
+        },
+        {
+          "id": "cd0e6555-9c73-4fa8-a43b-1cf3b2d48ccf",
+          "label": "grand_total_inv",
+          "xmin": 2101,
+          "ymin": 2499,
+          "xmax": 2270,
+          "ymax": 2529,
+          "score": 0.9869708,
+          "ocr_text": "26,458,434"
+        }
+      ],
+      "page": 3,
+      "request_file_id": "a2d16fd4-f6f6-4f20-999c-85d153710e85",
+      "filepath": "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg",
+      "id": "32c87253-9aa7-11ec-88ba-62d963127418",
+      "rotation": 0
+    },
+    {
+      "message": "Success",
+      "input": "632.YP-GA.IMO.2021 (Pembayaran Listrik Distrik 8 Treasury tower Juni 21).pdf",
+      "prediction": [],
+      "page": 4,
+      "request_file_id": "a2d16fd4-f6f6-4f20-999c-85d153710e85",
+      "filepath": "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg",
+      "id": "32c8729c-9aa7-11ec-88bb-62d963127418",
+      "rotation": 0
+    }
+  ],
+  "signed_urls": {
+    "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg": {
+      "original": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg?expires=1646294759&or=0&s=d0ebed989ad2306139ebdd662ea5d9b2",
+      "original_compressed": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg?auto=compress&expires=1646294759&or=0&s=808bd46074c0e4d91a6a0e7a153340f9",
+      "thumbnail": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg?auto=compress&expires=1646294759&w=240&s=700e083e07f3c2f60a21773c80e92875",
+      "acw_rotate_90": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg?auto=compress&expires=1646294759&or=270&s=f62fba18623f971f92bf29bd0047f2c6",
+      "acw_rotate_180": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg?auto=compress&expires=1646294759&or=180&s=8b9e75f90aa6c99bbcabf541438a4d88",
+      "acw_rotate_270": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg?auto=compress&expires=1646294759&or=90&s=38a900d15ec51e1b97ad6c744ccfb4ef",
+      "original_with_long_expiry": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-1.jpeg?expires=1661832359&or=0&s=a8e0d927d128434e8df4bb424eef2e20"
+    },
+    "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg": {
+      "original": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg?expires=1646294759&or=0&s=4ab7a29b67a73a3b81b3c8ededccd2bb",
+      "original_compressed": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg?auto=compress&expires=1646294759&or=0&s=c2e9c9757a05fd303cf41fcd9e8aa62b",
+      "thumbnail": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg?auto=compress&expires=1646294759&w=240&s=4bf6f1db2b0136908a2337df5b54a395",
+      "acw_rotate_90": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg?auto=compress&expires=1646294759&or=270&s=9ed258822f4f1a370878eacca1bad69f",
+      "acw_rotate_180": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg?auto=compress&expires=1646294759&or=180&s=27e5877262075477b2c625f0b9178494",
+      "acw_rotate_270": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg?auto=compress&expires=1646294759&or=90&s=75716d10a0f6d63569a3157234984a87",
+      "original_with_long_expiry": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-2.jpeg?expires=1661832359&or=0&s=d90c2221afab9ff6e71115b8d98b7619"
+    },
+    "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg": {
+      "original": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg?expires=1646294759&or=0&s=608491092314397661cf22498a80607e",
+      "original_compressed": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg?auto=compress&expires=1646294759&or=0&s=00a079ead2636e72b95b8fc839a60d49",
+      "thumbnail": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg?auto=compress&expires=1646294759&w=240&s=245531a62e5f66774e530fd4033877e7",
+      "acw_rotate_90": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg?auto=compress&expires=1646294759&or=270&s=1a4234f9b6b0809cede5218b8878a19f",
+      "acw_rotate_180": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg?auto=compress&expires=1646294759&or=180&s=07cc7bbcb90f83353f3bf45e6718a352",
+      "acw_rotate_270": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg?auto=compress&expires=1646294759&or=90&s=ebe34cfe2565f99d5335333b8196c5e8",
+      "original_with_long_expiry": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-3.jpeg?expires=1661832359&or=0&s=863b4c53635e69c8127aa374a4e4d1e3"
+    },
+    "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg": {
+      "original": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg?expires=1646294759&or=0&s=e4fc3998289e20624144e91dce14a6fa",
+      "original_compressed": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg?auto=compress&expires=1646294759&or=0&s=1a7f16ad852309f7607131d49cd93d2d",
+      "thumbnail": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg?auto=compress&expires=1646294759&w=240&s=4cc6ade5cb36cac8c304ab8056474a51",
+      "acw_rotate_90": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg?auto=compress&expires=1646294759&or=270&s=314e8e756bcdd44ca35b430bf58902a7",
+      "acw_rotate_180": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg?auto=compress&expires=1646294759&or=180&s=f7babfd341b9c9f4df81742d201c5a72",
+      "acw_rotate_270": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg?auto=compress&expires=1646294759&or=90&s=5c0af2a5677543eeb96a6a152b0b847a",
+      "original_with_long_expiry": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-4.jpeg?expires=1661832359&or=0&s=85563c2e14d377dc015bbe0f9bae7889"
+    },
+    "uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg": {
+      "original": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg?expires=1646294759&or=0&s=a078be3f506b4ce096977a46f6e0d537",
+      "original_compressed": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg?auto=compress&expires=1646294759&or=0&s=e4a3bf2cf270d48bb78300fa92908ec3",
+      "thumbnail": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg?auto=compress&expires=1646294759&w=240&s=af98a21e2892f0579f050df6369c6d8c",
+      "acw_rotate_90": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg?auto=compress&expires=1646294759&or=270&s=78bee49c0deaf8fc4bde31a506a0b368",
+      "acw_rotate_180": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg?auto=compress&expires=1646294759&or=180&s=50445d08bdaa6f498f56d801b66a82bf",
+      "acw_rotate_270": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg?auto=compress&expires=1646294759&or=90&s=05ecc1f685a51c7c73e44402303ae8ef",
+      "original_with_long_expiry": "https://nnts.imgix.net/uploadedfiles/17214ceb-d90b-4f64-9de0-bd7ee05fe2d5/PredictionImages/212220841-5.jpeg?expires=1661832359&or=0&s=48796be71328829013d6059f1a64c7ae"
+    }
+  }
+}
